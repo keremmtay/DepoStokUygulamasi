@@ -1,0 +1,11 @@
+﻿- Veritabanı ile ilgili işlemler bu katman altında yapılacaktır.
+
+- Farklı bir katman olan EntityLayer içindeki entity Class'larına ulaşabilmek için DataAccessLayer içindeki References'a Entity katmanını eklemem gerekiyor. Bunun için de References üzerinde sağ tuş ile tıkladıktan sonra Add Referenec => PRoject - Solutions'ı seçiyoruz. Burada uygulamamızda bulunan diğer katmanlar görünecektir. EntityLayer katmanını seçip OK'ye tıklıyoruz. Artık EntityLayer katmanı DataAccessLayer katmanına eklenmiş oldu. Böylece EntityLayer içindeki class'lara erişebileceğim.
+
+- EntityFramework kuruldu.
+
+- Context nesnesi için ilgili sınıf oluşturuldu.
+
+- App.config dosyasına connectionstring eklendi.
+
+- Ve veritabanı işlemleri için GenericRepository design Pattern'ı için ilgili Class ve Interface oluşturuldu.

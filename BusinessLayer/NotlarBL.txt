@@ -1,0 +1,9 @@
+﻿- BusinessLayer katmanı iş katmanı olarak da adlandırılır.
+
+- Yapılan işin geçerliliğinin ve kuralların kontrolünün yapıldığı katmandır.
+
+- Örneğin; Sistemde olan kullanıcının bu işi yapmaya yetkisi var mı? gibi
+
+- Ya da CategoryName alanına en az 3 karakter en fazla 20 karakter kadar giriş yapılabiliyorsa, kullanıcının girdiği değerlerin bu kurallara uyup uymadığının kontrolü gibi işlemler yapılır. Eğer kontrolleri geçemezse, Veri DataAccessLayer katmanına gönderilmez, kullanıcı bir mesajla uyarılır.
+
+- Eğer ki Category işlemleri yapacaksam ilgili Class ismi CategoryManager olarak adlandırılmalı. (yazılı olmayan kurallardan)

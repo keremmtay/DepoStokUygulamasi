@@ -1,0 +1,6 @@
+﻿- Bu katmanda projemizde kullanacağımız Entity/Varlık sınıflarımız bulunacaktır.
+
+
+
+
+- SQL App > Tools > SQL Server Provider > RUN > BatchStarting
